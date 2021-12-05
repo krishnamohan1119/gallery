@@ -12,7 +12,7 @@ fetch('./../gallery/navigation.html')
     if(urlTotal.search("index.html")>0){
         document.getElementsById("index").classList.add('active');
     }else if(urlTotal.search("about.html")>0){
-        document.getElementsById("index").classList.add('about');
+        document.getElementsById("about").classList.add('about');
     }
 });
 
