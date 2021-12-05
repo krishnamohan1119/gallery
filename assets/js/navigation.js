@@ -1,4 +1,4 @@
-function loadfetch('navigation.html')
+function loadfetch('./../navigation.html')
 .then(res => res.text())
 .then(text => {
     let oldelem = document.querySelector("script#navbar");
