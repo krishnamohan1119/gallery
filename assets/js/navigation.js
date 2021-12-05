@@ -10,9 +10,9 @@ fetch('./../gallery/navigation.html')
       elements[0].classList.remove("active");
     }
     if(urlTotal.search("index.html")>0){
-        document.getElementsById("index").classList.add('active');
+        document.getElementById("indexitem").classList.add('active');
     }else if(urlTotal.search("about.html")>0){
-        document.getElementsById("about").classList.add('about');
+        document.getElementById("aboutitem").classList.add('about');
     }
 });
 
