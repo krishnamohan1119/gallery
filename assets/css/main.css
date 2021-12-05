@@ -160,6 +160,10 @@ a{
 {
   color: #636363;
 }
+#menuToggle a.active
+{
+  color: #9C9C9C;
+}
 
 
 #menuToggle input
