@@ -311,6 +311,9 @@ a{
 	#hamburger{
 		display:block;
 	}
+	#nav{
+		display:none;
+	}
 
 }
 
