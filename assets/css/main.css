@@ -16,6 +16,9 @@ h2{
 a{
 	color:#2e68ff;
 }
+#hamburger{
+	display:none;
+}
 .menu-top{
 	background-color: #9C9C9C;
 	padding:0.3%;
