@@ -131,6 +131,9 @@ a{
 /*
  * hamburger changes
  */
+#hamburger{
+  height:0px;
+}
 #menuToggle
 {
   display: block;
