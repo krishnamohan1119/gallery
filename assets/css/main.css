@@ -317,3 +317,12 @@ a{
 
 }
 
+article {
+    background: #EDEDED
+    padding: 1em;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 5px 5px 5px #CCC;
+    position: relative;
+    z-index: -1;
+}
+
