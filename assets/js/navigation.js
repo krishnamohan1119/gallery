@@ -11,8 +11,19 @@ fetch('./../gallery/navigation.html')
     }
     if(urlTotal.search("index.html")>0){
         document.getElementById("indexitem").classList.add('active');
+        document.getElementById("indexmenu").classList.add('active');
     }else if(urlTotal.search("about.html")>0){
-        document.getElementById("aboutitem").classList.add('about');
+        document.getElementById("aboutitem").classList.add('active');
+        document.getElementById("aboutmenu").classList.add('active');
+    }else if(urlTotal.search("news.html")>0){
+        document.getElementById("newsitem").classList.add('active');
+        document.getElementById("newsmenu").classList.add('active');
+    }else if(urlTotal.search("exhibitions.html")>0){
+        document.getElementById("exhibitionsitem").classList.add('active');
+        document.getElementById("exhibitionsmenu").classList.add('active');
+    }else if(urlTotal.search("artists.html")>0){
+        document.getElementById("artistsitem").classList.add('active');
+        document.getElementById("artistsmenu").classList.add('active');
     }
 });
 
