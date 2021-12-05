@@ -44,6 +44,11 @@ a{
 .content-end{
 	padding-bottom: 1em;
 }
+.content-wrapper{
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	line-height: 1.5;
+}
 .image-block img{
 	width:10em;
 	height:10em;
